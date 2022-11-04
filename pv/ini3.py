@@ -1,0 +1,14 @@
+# Strings and Lists
+
+# Given: A string s of length at most 200 letters and four integers a, b, c and d.
+# Return: The slice of this string from indices a through b and c through d (with space in between), inclusively. In other words, we should include elements s[b] and s[d] in our slice.
+
+s = 'pXGNdd28ji4lvIzRoSV7sDJddoIE3niwIsXbb0DKSD0yUzuSQSbV4DnHHiWYfPo7PelusiosbrWp1fhUv2PQ5sCbifasciatus35FdhU79caIfqHvpbE6lskk0BvKh1fpM6mHT3bycVJLZy3E6sCMyaWKhvRhMMwh9WgP72kxACkwuFOdtAGN1RKOEySxrKPeWb..'
+
+a =64
+b =71
+c =87
+d =97
+
+c = s[a:b+1] + ' ' + s[c:d+1]
+print(c)
